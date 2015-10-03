@@ -33,13 +33,35 @@ table {
    }   
   
 .col-1 {
-    float:left
-    width : 120
-    height: 120
+    float:left;
+    width : 120px;
    }   
 
 .col-4 {
     float:left; /* Выравнивание по левому краю */
     margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
    }
+.row {
    
+   }
+   
+   .clearfix:after, .row:after {
+     content: "";
+     display: block;
+     height: 0;
+     clear: both;
+     visibility: hidden;
+}
+.slide {
+    background: #a52a2a;
+    width: 500px;
+    position: relative;
+       }
+.Left {
+    position: absolute;
+    background: #333;
+    width: 20px;
+    height: 100px;
+    left: 0px;
+    z-index: 100; 
+    } 
