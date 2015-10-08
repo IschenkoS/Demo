@@ -41,7 +41,11 @@ table {
     float:left; /* Выравнивание по левому краю */
     margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
     border: 5px solid green;
-   }   
+   }
+   
+.col-3 {
+  
+} 
   
 .col-4 {
     float:left; /* Выравнивание по левому краю */
