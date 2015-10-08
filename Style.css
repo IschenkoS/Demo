@@ -19,6 +19,10 @@ p {
   padding-left: 10px; /* Отступ от линии слева до текста  */
   padding-bottom: 10px; /* Отступ от линии снизу до текста  */
 }
+
+figcaption {
+  background-color: aquamarine;
+}
 a {
   margin-left: 20px; /* Отступ слева в пикселах */
 }
@@ -26,26 +30,35 @@ table {
   margin-left: 20px; /* Отступ слева в пикселах */
 }
 
- 
- .col-1,col-2 {
+.col-1 {
     float:left; /* Выравнивание по левому краю */
     margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
-   }   
-  
-.col-1 {
-    float:left;
-    width : 120px;
+    border: 5px solid gold;
    }   
 
+ 
+.col-2 {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+    border: 5px solid green;
+   }   
+  
 .col-4 {
     float:left; /* Выравнивание по левому краю */
     margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
    }
-.row {
-   
-   }
-   
-   .clearfix:after, .row:after {
+.col-md-1 { 
+   float:left;
+   border: 5px solid brown;
+
+}
+
+.figure {
+   display: block;
+}
+  
+
+ .clearfix:after, .row:after {
      content: "";
      display: block;
      height: 0;
@@ -56,12 +69,17 @@ table {
     background: #a52a2a;
     width: 500px;
     position: relative;
-       }
+    margin: 10px
+}
 .Left {
     position: absolute;
     background: #333;
     width: 20px;
-    height: 100px;
+    height: 99px;
     left: 0px;
     z-index: 100; 
     } 
+    q {
+    font-family: Times, serif; /* Шрифт с засечками */ 
+    font-style: italic; /* Курсивное начертание текста */
+    color: #008; /* Цвет текста *

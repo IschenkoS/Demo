@@ -1,0 +1,15 @@
+.container {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  margin-bottom: 10px;
+}
+/*span {
+  display: block;
+}*/
+
+.anything {
+  display: block;
+  display: inline;
+  display: inline-block;
+}
